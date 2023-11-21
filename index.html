@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="button-types">
+        <h1>Tipo de botões</h1>
+        <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe abaixo um exemplo de tipos e propriedades.</p>
+
+        <table>
+            <thead>
+                <th></th>
+                <th class="table-title">Botão primário</th>
+                <th class="table-title">Botão secundário</th>
+                <th class="table-title">Botão terciário</th>
+                <th class="table-title">Cursor</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="table-title">Default</td>
+                    <td><span class="btn">Default Primary</span></td>
+                    <td><span class="btn btn-secondary">Default Secondary</span></td>
+                    <td><span class="btn btn-terciary">Default Tertiary</span></td>
+                    <td><img src="./assets/images/default-cursor.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="table-title">Hover</td>
+                    <td><span class="btn btn-hover">Hover Primary</span></td>
+                    <td><span class="btn btn-hover-secondary">Hover Secondary</span></td>
+                    <td><span class="btn btn-terciary">Hover Tertiary</span></td>
+                    <td><img src="./assets/images/default-cursor.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="table-title">Focus</td>
+                    <td><span class="btn btn-focus">Focus Primary</span></td>
+                    <td><span class="btn btn-focus">Focus Secondary</span></td>
+                    <td><span class="btn btn-terciary btn-focus">Focus Tertiary</span></td>
+                    <td><img src="./assets/images/default-cursor.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="table-title">Disabled</td>
+                    <td><span class="btn btn-disabled">Disabled Primary</span></td>
+                    <td><span class="btn btn-secondary btn-disabled">Disabled Secondary</span></td>
+                    <td><span class="btn btn-terciary">Disabled Tertiary</span></td>
+                    <td><img src="./assets/images/disabled-cursor.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="table-title">Loading</td>
+                    <td><span class="btn btn-loading">Loading Primary</span></td>
+                    <td><span class="btn btn-secondary btn-loading">Loading Secondary</span></td>
+                    <td><span class="btn btn-terciary btn-loading">Loading Tertiary</span></td>
+                    <td><img src="./assets/images/loading-cursor.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="table-title">Movable</td>
+                    <td><span class="btn btn-movable">Movable Primary</span></td>
+                    <td><span class="btn btn-secondary btn-movable">Movable Secondary</span></td>
+                    <td><span class="btn btn-terciary btn-movable">Movable Tertiary</span></td>
+                    <td><img src="./assets/images/movable-cursor.svg" alt=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="button-test">
+        <h2>Teste os botões</h2>
+        <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
+        <button class="btn">Interaja comigo</button>
+        <button class="btn btn-secondary btn-disabled" disabled>Interaja comigo</button>
+        <button class="btn btn-terciary btn-movable">Interaja comigo</button>
+    </section>
+</body>
+</html>

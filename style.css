@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+.btn{
+    font-family: 'Inter';
+}
+
+p{
+    margin-bottom: 36px;
+    font-size: 19px;
+}
+
+.button-types{
+    flex-basis: 70%;
+    flex-grow: 1;
+    background-color: #0B0911;
+    padding: 107px 77px;
+}
+.button-types h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+table{   
+    background-color: #1C162C;
+    border-radius: 8px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table .table-title{
+    padding: 24px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+table td:not(.table-title){
+    background-color: #0B0911;
+    padding: 32px;
+}
+
+.btn{
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 40px;
+    background-color: #8257E5;
+    color: #fff;
+    border: none;
+    cursor: url(./assets/images/default-cursor.svg), default;
+}
+
+.btn-secondary{
+    background-color: #3C3748;
+}
+.btn-terciary{
+    background-color: transparent;
+}
+
+.btn-hover{
+    background-color: #9674E5;
+}
+button.btn:hover:not(.btn-terciary){
+    background-color: #9674E5;
+}
+
+.btn-hover-secondary{
+    background-color: #6A617F;
+}
+
+button.btn.btn-secondary:hover{
+    background-color: #6A617F;
+}
+
+.btn-focus{
+    outline: 2px solid #fff;
+}
+
+.btn:focus{
+    outline: 2px solid #fff;
+}
+
+.btn-disabled{
+    opacity: 0.56;
+    cursor: url(./assets/images/disabled-cursor.svg), default;
+}
+
+.btn-loading{
+    cursor: url(./assets/images/loading-cursor.svg),default;
+}
+.btn-movable{
+    cursor: url(./assets/images/movable-cursor.svg),default;
+}
+.button-test{
+    flex-basis: 30%;
+    background-color:#130F1E;
+    padding: 107px 44px 0;
+}
+
+.button-test h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.button-test .btn{
+    margin-bottom: 32px;
+}
